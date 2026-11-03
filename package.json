@@ -4,7 +4,9 @@
   "description": "Projeto simples para aulas de CI-CD",
   "main": "index.js",
   "scripts": {
-    "test": "node scripts/run-cypress.cjs"
+    "test": "node scripts/run-cypress.cjs",
+    "allure:generate": "allure generate allure-results",
+    "allure:open": "allure open"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,9 @@
   "homepage": "https://github.com/EBAC-QE/ci-cd-teste-exemplo#readme",
   "dependencies": {
     "cypress": "^14.5.4"
+  },
+  "devDependencies": {
+    "allure": "^3.22.1",
+    "allure-cypress": "^3.14.0"
   }
 }
