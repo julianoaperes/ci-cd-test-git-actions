@@ -1,0 +1,1 @@
+{"id":"47e64796adc4cf8acfd7315472c93ad7.d41d8cd98f00b204e9800998ecf8427e","fullName":"ci-cd-teste-exemplo:cypress/e2e/2-advanced-examples/cookies.cy.js#Cookies cy.getCookies() - get browser cookies for the current domain","name":"cy.getCookies() - get browser cookies for the current domain","status":"passed","testResultsByEnv":{"default":"3d51a6c31492962dbec207d5bdbe6c59"}}

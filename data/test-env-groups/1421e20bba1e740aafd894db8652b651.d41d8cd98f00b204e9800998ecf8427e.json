@@ -1,0 +1,1 @@
+{"id":"1421e20bba1e740aafd894db8652b651.d41d8cd98f00b204e9800998ecf8427e","fullName":"ci-cd-teste-exemplo:cypress/e2e/2-advanced-examples/network_requests.cy.js#Network Requests cy.intercept() - route responses to matching requests","name":"cy.intercept() - route responses to matching requests","status":"passed","testResultsByEnv":{"default":"584dc3e172c09cbb2f7753e4d8ab8520"}}
