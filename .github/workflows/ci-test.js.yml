@@ -6,6 +6,9 @@ on:
   push:
     branches: ["main"]
 
+permissions:
+  contents: write
+
 # Jobs group the work that GitHub Actions runs.
 jobs:
   # Job identifier; despite its name, this job installs dependencies and runs tests.
@@ -40,5 +43,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./allure-report
-        permissions:
-          contents: write
