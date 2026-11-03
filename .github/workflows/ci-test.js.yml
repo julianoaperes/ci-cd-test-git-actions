@@ -32,3 +32,12 @@ jobs:
       # npx finds the installed Cypress CLI; a failing test makes this step and job fail.
       - name: Execute tests
         run: npm test
+
+      - name: Generate allure reports
+        run: npm run allure:generate
+
+      - name: Publish report on GitHub packages
+        uses: peaceiris/actions-gh-pages@v4
+          with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_dir: ./public

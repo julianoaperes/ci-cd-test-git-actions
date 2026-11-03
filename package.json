@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node scripts/run-cypress.cjs",
-    "allure:generate": "allure generate allure-results",
+    "allure:generate": "npx allure generate --clean allure-results --output allure-report",
     "allure:open": "allure open"
   },
   "repository": {
