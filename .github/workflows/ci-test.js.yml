@@ -35,7 +35,7 @@ jobs:
 
       - name: Generate allure reports
         run: npm run allure:generate
-      - name: peaceiris/actions-gh-pages@v4
+      - name: Publication on Gh pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
