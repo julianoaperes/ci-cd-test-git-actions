@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/EBAC-QE/ci-cd-teste-exemplo#readme",
   "dependencies": {
+    "allure-commandline": "^2.46.1",
     "cypress": "^14.5.4"
   },
   "devDependencies": {
