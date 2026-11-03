@@ -16,10 +16,10 @@ jobs:
     # Steps run in order, so the project and its dependencies are ready before tests.
     steps:
       # Download the repository onto the runner so later steps can access its files.
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       # Configure the Node.js runtime needed to run npm and Cypress.
       - name: Use Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           # Use Node.js 18 to keep the major runtime version consistent across runs.
           node-version: 18
